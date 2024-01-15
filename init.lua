@@ -1,3 +1,3 @@
-require('lua/vlzqz.remap')
-require('lua/vlzqz.set')
+require('vlzqz.remap')
+require('vlzqz.set')
 
