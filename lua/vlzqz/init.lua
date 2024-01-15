@@ -1,2 +1,2 @@
 require('vlzqz.remap')
-print('hello from vlzqz')
+require('vlzqz.set')

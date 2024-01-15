@@ -1,2 +1,3 @@
-require('vlzqz')
-print('hello')
+require('lua/vlzqz.remap')
+require('lua/vlzqz.set')
+
