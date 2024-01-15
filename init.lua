@@ -1,0 +1,2 @@
+require('vlzqz')
+print('hello')
