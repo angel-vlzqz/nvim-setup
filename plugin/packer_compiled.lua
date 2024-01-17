@@ -185,6 +185,11 @@ _G.packer_plugins = {
     path = "/Users/vlzqz/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/theprimeagen/vim-be-good"
   },
+  ["vim-closer"] = {
+    loaded = true,
+    path = "/Users/vlzqz/.local/share/nvim/site/pack/packer/start/vim-closer",
+    url = "https://github.com/rstacruz/vim-closer"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/vlzqz/.local/share/nvim/site/pack/packer/start/vim-fugitive",
