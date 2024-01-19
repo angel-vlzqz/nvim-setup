@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
     use('rstacruz/vim-closer')
+    use('terryma/vim-smooth-scroll')
 
     use{
       'vonheikemen/lsp-zero.nvim',

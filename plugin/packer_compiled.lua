@@ -194,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/vlzqz/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-smooth-scroll"] = {
+    loaded = true,
+    path = "/Users/vlzqz/.local/share/nvim/site/pack/packer/start/vim-smooth-scroll",
+    url = "https://github.com/terryma/vim-smooth-scroll"
   }
 }
 
