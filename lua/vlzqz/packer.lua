@@ -27,6 +27,18 @@ return require('packer').startup(function(use)
     use('rstacruz/vim-closer')
     use('terryma/vim-smooth-scroll')
 
+    use {
+      "lukas-reineke/indent-blankline.nvim",
+      config = function()
+        opts = {}
+        -- Other blankline configuration here
+        require("ibl").setup(require("indent-rainbowline").make_opts(opts))
+      end,
+      requires = {
+        "TheGLander/indent-rainbowline.nvim",
+      },
+    }
+
     use{
       'vonheikemen/lsp-zero.nvim',
       requires = 
